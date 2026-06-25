@@ -1,0 +1,17 @@
+# CartSaver — Python Dependencies
+
+# Database
+psycopg2-binary>=2.9
+
+# AI — NVIDIA NIM (OpenAI-compatible)
+openai>=1.0
+
+# Notifications
+sendgrid>=6.0
+twilio>=8.0
+
+# Scheduling
+APScheduler>=3.10
+
+# Environment
+python-dotenv>=1.0

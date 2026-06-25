@@ -1,0 +1,121 @@
+Customer ID,Customer Name,Customer Segment,Age Group,Region,Acquisition Channel,Campaign Name,Website Visit Date,Page Views,Product Viewed,Add to Cart,Checkout Started,Purchase Completed,Purchase Value,Session Duration,Bounce Status,Customer Feedback Score,Customer Retention Status,Funnel Stage,Conversion Status
+CUST0001,Fatima Gupta,Premium,25-34,South,Email,Winter Fest,2024-05-31,14,1,1,1,1,84.51,75,Engaged,4,Retained,Purchase Completed,Converted
+CUST0002,Ayesha Chopra,Standard,25-34,South,Referral,New User Offer,2024-06-27,14,1,1,1,0,0.0,706,Engaged,5,Retained,Checkout Started,Not Converted
+CUST0003,Ankur Gupta,Standard,25-34,South,Organic Search,Retargeting,2024-05-17,4,1,1,1,0,0.0,785,Engaged,4,At Risk,Checkout Started,Not Converted
+CUST0004,Vivek Thakur,Premium,18-24,West,Referral,Winter Fest,2024-02-29,4,1,1,1,1,142.93,788,Engaged,4,Retained,Purchase Completed,Converted
+CUST0005,Siddharth Patel,Standard,25-34,West,Organic Search,Brand Awareness,2024-03-10,21,1,0,0,0,0.0,1419,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0006,Saumya Verma,Premium,18-24,South,Paid Ads,Referral Bonus,2024-05-25,23,1,1,1,0,0.0,654,Engaged,3,At Risk,Checkout Started,Not Converted
+CUST0007,Vijay Nair,Premium,35-44,East,Referral,Brand Awareness,2024-05-29,13,1,1,0,0,0.0,751,Engaged,2,Churned,Add to Cart,Not Converted
+CUST0008,Neha Verma,Budget,25-34,North,Email,Winter Fest,2024-04-08,13,1,0,0,0,0.0,1230,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0009,Yogesh Sharma,Standard,18-24,Central,Referral,Flash Sale,2024-01-29,10,1,1,1,0,0.0,900,Engaged,4,At Risk,Checkout Started,Not Converted
+CUST0010,Naveen Kumar,Standard,18-24,West,Referral,Referral Bonus,2024-02-09,12,1,1,0,0,0.0,1571,Engaged,4,At Risk,Add to Cart,Not Converted
+CUST0011,Charu Sharma,Standard,25-34,North,Paid Ads,Holiday Special,2024-03-02,2,1,0,0,0,0.0,503,Engaged,1,Retained,Product Viewed,Not Converted
+CUST0012,Jatin Patel,Budget,35-44,North,Email,New User Offer,2024-03-08,17,1,0,0,0,0.0,1796,Engaged,5,At Risk,Product Viewed,Not Converted
+CUST0013,Sahil Chopra,Budget,35-44,West,Paid Ads,Flash Sale,2024-04-22,17,1,1,1,0,0.0,934,Engaged,5,Churned,Checkout Started,Not Converted
+CUST0014,Tanya Thakur,Premium,18-24,West,Paid Ads,Summer Sale,2024-03-25,3,1,1,1,1,102.49,1062,Engaged,3,At Risk,Purchase Completed,Converted
+CUST0015,Rohini Thakur,Standard,35-44,West,Organic Search,Winter Fest,2024-06-17,14,1,1,1,0,0.0,735,Engaged,3,At Risk,Checkout Started,Not Converted
+CUST0016,Sameer Gupta,Premium,35-44,West,Organic Search,Referral Bonus,2024-02-18,18,1,1,1,1,228.66,928,Engaged,3,Retained,Purchase Completed,Converted
+CUST0017,Bindu Chopra,Premium,35-44,East,Organic Search,Winter Fest,2024-03-01,6,1,1,1,1,89.97,842,Engaged,3,Retained,Purchase Completed,Converted
+CUST0018,Preeti Nair,Budget,35-44,South,Email,Retargeting,2024-02-09,7,1,1,1,0,0.0,617,Engaged,4,Retained,Checkout Started,Not Converted
+CUST0019,Aditya Verma,Premium,25-34,Central,Social Media,Summer Sale,2024-05-10,3,1,1,1,0,0.0,1753,Engaged,4,Retained,Checkout Started,Not Converted
+CUST0020,Rekha Thakur,Premium,35-44,West,Paid Ads,Flash Sale,2024-03-07,7,1,1,1,1,194.19,1381,Engaged,3,Retained,Purchase Completed,Converted
+CUST0021,Aditya Patel,Premium,35-44,East,Organic Search,Referral Bonus,2024-05-09,9,1,0,0,0,0.0,281,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0022,Nikhil Joshi,Standard,25-34,West,Email,Summer Sale,2024-06-19,18,1,0,0,0,0.0,623,Engaged,2,Retained,Product Viewed,Not Converted
+CUST0023,Nikhil Singh,Standard,45-54,West,Organic Search,Holiday Special,2024-06-03,7,1,1,1,0,0.0,1479,Engaged,3,Churned,Checkout Started,Not Converted
+CUST0024,Ravi Verma,Premium,25-34,South,Organic Search,New User Offer,2024-06-12,9,1,1,1,1,81.64,340,Engaged,4,Retained,Purchase Completed,Converted
+CUST0025,Pallavi Singh,Standard,45-54,East,Organic Search,New User Offer,2024-01-11,10,1,0,0,0,0.0,756,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0026,Arvind Verma,Budget,25-34,South,Organic Search,Brand Awareness,2024-06-07,24,1,0,0,0,0.0,326,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0027,Rajesh Kumar,Budget,18-24,West,Paid Ads,Brand Awareness,2024-06-20,24,1,1,1,0,0.0,1670,Engaged,3,Churned,Checkout Started,Not Converted
+CUST0028,Vikram Sengupta,Premium,45-54,East,Paid Ads,Referral Bonus,2024-02-27,1,1,0,0,0,0.0,1361,Bounced,4,At Risk,Product Viewed,Not Converted
+CUST0029,Lata Rao,Standard,25-34,Central,Social Media,Summer Sale,2024-01-30,9,1,0,0,0,0.0,375,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0030,Vikram Gupta,Standard,25-34,West,Social Media,Winter Fest,2024-04-08,19,1,1,0,0,0.0,399,Engaged,1,Retained,Add to Cart,Not Converted
+CUST0031,Sahil Chopra,Standard,45-54,West,Organic Search,Brand Awareness,2024-01-18,22,1,0,0,0,0.0,686,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0032,Rekha Mehta,Standard,35-44,South,Email,New User Offer,2024-02-19,14,1,0,0,0,0.0,1371,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0033,Kajal Kumar,Standard,25-34,East,Organic Search,Holiday Special,2024-02-23,14,1,0,0,0,0.0,1619,Engaged,2,Churned,Product Viewed,Not Converted
+CUST0034,Anita Bose,Standard,25-34,East,Direct,New User Offer,2024-06-17,3,1,1,1,1,103.66,591,Engaged,5,Churned,Purchase Completed,Converted
+CUST0035,Dhruv Mehta,Premium,25-34,North,Paid Ads,Retargeting,2024-06-05,25,1,1,0,0,0.0,159,Engaged,5,Churned,Add to Cart,Not Converted
+CUST0036,Aditi Kapoor,Standard,25-34,West,Organic Search,Winter Fest,2024-04-18,8,1,0,0,0,0.0,370,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0037,Anita Verma,Standard,45-54,North,Organic Search,Retargeting,2024-06-19,17,1,0,0,0,0.0,1154,Engaged,3,At Risk,Product Viewed,Not Converted
+CUST0038,Om Bose,Standard,35-44,East,Referral,Retargeting,2024-02-10,24,1,1,1,1,87.39,1774,Engaged,2,Churned,Purchase Completed,Converted
+CUST0039,Ashok Sengupta,Standard,25-34,North,Paid Ads,Holiday Special,2024-03-26,11,1,1,1,1,43.75,1116,Engaged,4,Retained,Purchase Completed,Converted
+CUST0040,Bhavna Malhotra,Standard,25-34,North,Referral,Brand Awareness,2024-05-29,23,1,0,0,0,0.0,50,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0041,Ankur Sengupta,Premium,25-34,West,Referral,Brand Awareness,2024-05-17,24,1,1,1,1,117.3,1514,Engaged,2,Retained,Purchase Completed,Converted
+CUST0042,Ananya Kapoor,Standard,35-44,South,Organic Search,Retargeting,2024-02-02,20,1,1,1,0,0.0,1103,Engaged,4,Retained,Checkout Started,Not Converted
+CUST0043,Sameer Malhotra,Premium,25-34,North,Paid Ads,Referral Bonus,2024-04-26,11,1,0,0,0,0.0,701,Engaged,1,Churned,Product Viewed,Not Converted
+CUST0044,Tushar Malhotra,Standard,18-24,North,Social Media,Flash Sale,2024-02-27,21,1,0,0,0,0.0,150,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0045,Tushar Sharma,Budget,25-34,North,Organic Search,New User Offer,2024-05-01,22,1,0,0,0,0.0,244,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0046,Mira Nair,Budget,25-34,West,Referral,Winter Fest,2024-02-11,10,1,0,0,0,0.0,231,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0047,Rohini Kapoor,Standard,35-44,North,Email,Referral Bonus,2024-01-27,23,1,1,0,0,0.0,1592,Engaged,3,At Risk,Add to Cart,Not Converted
+CUST0048,Nandini Thakur,Budget,25-34,East,Paid Ads,Flash Sale,2024-01-04,14,1,0,0,0,0.0,1694,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0049,Vivek Bose,Budget,25-34,West,Direct,Holiday Special,2024-06-06,18,1,0,0,0,0.0,1596,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0050,Lavanya Thakur,Standard,45-54,West,Organic Search,Retargeting,2024-03-03,25,1,0,0,0,0.0,961,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0051,Rashmi Sharma,Standard,25-34,East,Paid Ads,Holiday Special,2024-03-28,9,1,0,0,0,0.0,1230,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0052,Priya Desai,Budget,18-24,West,Social Media,Referral Bonus,2024-06-25,16,1,0,0,0,0.0,1332,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0053,Rohan Patel,Standard,25-34,South,Email,Flash Sale,2024-05-01,18,1,1,0,0,0.0,1097,Engaged,5,Churned,Add to Cart,Not Converted
+CUST0054,Jyoti Bose,Standard,25-34,North,Organic Search,Winter Fest,2024-05-17,25,1,1,1,0,0.0,1423,Engaged,5,At Risk,Checkout Started,Not Converted
+CUST0055,Namrata Desai,Standard,55+,West,Paid Ads,Flash Sale,2024-02-15,10,1,0,0,0,0.0,38,Engaged,4,Retained,Product Viewed,Not Converted
+CUST0056,Kavya Verma,Standard,35-44,North,Referral,Retargeting,2024-01-27,1,1,1,0,0,0.0,1185,Bounced,5,Retained,Add to Cart,Not Converted
+CUST0057,Arvind Sengupta,Premium,18-24,East,Social Media,Summer Sale,2024-02-08,5,1,1,1,0,0.0,1671,Engaged,2,Retained,Checkout Started,Not Converted
+CUST0058,Namrata Malhotra,Standard,35-44,South,Social Media,Retargeting,2024-04-23,10,1,0,0,0,0.0,1771,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0059,Akshay Das,Premium,55+,North,Referral,Referral Bonus,2024-03-08,22,1,1,1,1,80.45,176,Engaged,1,Retained,Purchase Completed,Converted
+CUST0060,Chirag Sengupta,Standard,25-34,West,Email,Retargeting,2024-01-19,22,1,0,0,0,0.0,488,Engaged,3,At Risk,Product Viewed,Not Converted
+CUST0061,Imran Thakur,Standard,45-54,East,Social Media,New User Offer,2024-03-09,5,1,1,0,0,0.0,156,Engaged,4,Churned,Add to Cart,Not Converted
+CUST0062,Devika Thakur,Budget,25-34,East,Paid Ads,Brand Awareness,2024-03-10,17,1,0,0,0,0.0,1115,Engaged,3,Retained,Product Viewed,Not Converted
+CUST0063,Kavya Malhotra,Budget,35-44,North,Paid Ads,Summer Sale,2024-06-21,9,1,1,0,0,0.0,1190,Engaged,5,Churned,Add to Cart,Not Converted
+CUST0064,Ayesha Bose,Budget,25-34,East,Email,Retargeting,2024-01-24,16,1,1,1,1,22.24,722,Engaged,4,Retained,Purchase Completed,Converted
+CUST0065,Deepa Mehta,Standard,25-34,West,Organic Search,Winter Fest,2024-03-21,9,1,1,0,0,0.0,672,Engaged,3,At Risk,Add to Cart,Not Converted
+CUST0066,Devika Sharma,Standard,35-44,South,Organic Search,Flash Sale,2024-06-08,25,1,0,0,0,0.0,1030,Engaged,4,At Risk,Product Viewed,Not Converted
+CUST0067,Nitin Nair,Standard,45-54,East,Email,Winter Fest,2024-01-08,21,1,0,0,0,0.0,1256,Engaged,2,Churned,Product Viewed,Not Converted
+CUST0068,Geeta Chopra,Premium,25-34,South,Referral,Winter Fest,2024-04-28,4,1,0,0,0,0.0,1336,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0069,Aditi Mehta,Standard,25-34,West,Direct,Referral Bonus,2024-04-26,18,1,1,0,0,0.0,306,Engaged,2,Churned,Add to Cart,Not Converted
+CUST0070,Nikhil Singh,Budget,25-34,West,Paid Ads,Holiday Special,2024-01-01,10,1,1,0,0,0.0,1496,Engaged,5,At Risk,Add to Cart,Not Converted
+CUST0071,Jatin Singh,Standard,25-34,South,Referral,Brand Awareness,2024-04-26,11,1,1,0,0,0.0,1790,Engaged,5,Churned,Add to Cart,Not Converted
+CUST0072,Tanya Malhotra,Premium,35-44,West,Referral,Brand Awareness,2024-06-18,21,1,1,1,1,180.33,321,Engaged,3,At Risk,Purchase Completed,Converted
+CUST0073,Sheetal Bose,Premium,45-54,North,Organic Search,New User Offer,2024-01-20,16,1,0,0,0,0.0,1610,Engaged,1,Churned,Product Viewed,Not Converted
+CUST0074,Varun Kapoor,Standard,45-54,Central,Referral,Brand Awareness,2024-03-22,21,1,0,0,0,0.0,1481,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0075,Smita Verma,Standard,25-34,West,Paid Ads,Referral Bonus,2024-01-24,14,1,0,0,0,0.0,211,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0076,Suresh Bose,Premium,25-34,North,Paid Ads,Summer Sale,2024-03-16,12,1,1,1,1,195.91,777,Engaged,4,Retained,Purchase Completed,Converted
+CUST0077,Sanjay Patel,Standard,25-34,West,Social Media,New User Offer,2024-02-29,15,1,1,1,1,102.42,1316,Engaged,5,At Risk,Purchase Completed,Converted
+CUST0078,Dhruv Chopra,Premium,25-34,South,Social Media,Brand Awareness,2024-06-25,9,1,0,0,0,0.0,945,Engaged,2,Churned,Product Viewed,Not Converted
+CUST0079,Preeti Sengupta,Premium,25-34,South,Paid Ads,Holiday Special,2024-01-06,22,1,1,1,0,0.0,820,Engaged,4,At Risk,Checkout Started,Not Converted
+CUST0080,Arjun Das,Budget,45-54,Central,Referral,Referral Bonus,2024-06-04,12,1,0,0,0,0.0,458,Engaged,2,Churned,Product Viewed,Not Converted
+CUST0081,Dhruv Singh,Standard,45-54,West,Paid Ads,Retargeting,2024-01-09,19,1,0,0,0,0.0,757,Engaged,5,Retained,Product Viewed,Not Converted
+CUST0082,Ritu Agarwal,Budget,25-34,North,Social Media,Flash Sale,2024-05-15,17,1,0,0,0,0.0,568,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0083,Devika Sengupta,Budget,25-34,Central,Referral,Retargeting,2024-01-20,5,1,0,0,0,0.0,1554,Engaged,3,At Risk,Product Viewed,Not Converted
+CUST0084,Krishna Kapoor,Budget,45-54,South,Referral,Summer Sale,2024-03-08,18,1,0,0,0,0.0,263,Engaged,2,Churned,Product Viewed,Not Converted
+CUST0085,Dhruv Nair,Standard,45-54,Central,Organic Search,Referral Bonus,2024-04-30,1,1,0,0,0,0.0,1278,Engaged,3,At Risk,Product Viewed,Not Converted
+CUST0086,Harsh Patel,Standard,25-34,West,Email,Winter Fest,2024-02-05,2,1,1,0,0,0.0,86,Bounced,3,Retained,Add to Cart,Not Converted
+CUST0087,Shubham Rao,Standard,35-44,Central,Paid Ads,New User Offer,2024-04-16,21,1,0,0,0,0.0,212,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0088,Lata Verma,Standard,25-34,East,Paid Ads,Flash Sale,2024-01-26,22,1,1,0,0,0.0,762,Engaged,4,Churned,Add to Cart,Not Converted
+CUST0089,Dinesh Nair,Premium,18-24,Central,Social Media,Referral Bonus,2024-06-13,21,1,0,0,0,0.0,1232,Engaged,5,Retained,Product Viewed,Not Converted
+CUST0090,Mohan Joshi,Budget,35-44,North,Referral,Referral Bonus,2024-05-30,7,1,0,0,0,0.0,1675,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0091,Vijay Das,Premium,45-54,North,Organic Search,Holiday Special,2024-02-14,4,1,0,0,0,0.0,1363,Engaged,2,Retained,Product Viewed,Not Converted
+CUST0092,Jyoti Joshi,Standard,18-24,South,Organic Search,Brand Awareness,2024-05-14,4,1,1,1,1,83.43,1537,Engaged,4,Retained,Purchase Completed,Converted
+CUST0093,Harsh Das,Premium,35-44,Central,Social Media,Retargeting,2024-06-13,1,1,0,0,0,0.0,134,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0094,Pooja Sengupta,Budget,25-34,Central,Paid Ads,New User Offer,2024-01-17,5,1,0,0,0,0.0,573,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0095,Aditi Agarwal,Standard,35-44,South,Social Media,Brand Awareness,2024-01-26,23,1,0,0,0,0.0,244,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0096,Uday Chopra,Budget,25-34,East,Paid Ads,Flash Sale,2024-04-26,13,1,0,0,0,0.0,861,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0097,Aditya Nair,Standard,25-34,Central,Organic Search,Winter Fest,2024-01-24,14,1,0,0,0,0.0,207,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0098,Manish Chopra,Premium,55+,East,Email,Brand Awareness,2024-03-31,22,1,1,0,0,0.0,1546,Engaged,4,Retained,Add to Cart,Not Converted
+CUST0099,Akash Das,Standard,18-24,East,Organic Search,Retargeting,2024-02-27,4,1,0,0,0,0.0,727,Engaged,1,Churned,Product Viewed,Not Converted
+CUST0100,Namrata Nair,Standard,45-54,Central,Direct,Summer Sale,2024-06-04,22,1,0,0,0,0.0,1708,Engaged,2,Retained,Product Viewed,Not Converted
+CUST0101,Siddharth Mehta,Budget,25-34,North,Organic Search,Brand Awareness,2024-01-18,5,1,0,0,0,0.0,1527,Engaged,1,Retained,Product Viewed,Not Converted
+CUST0102,Sonia Desai,Premium,25-34,South,Paid Ads,Flash Sale,2024-05-25,20,1,0,0,0,0.0,183,Engaged,4,Churned,Product Viewed,Not Converted
+CUST0103,Tushar Das,Premium,18-24,East,Social Media,Retargeting,2024-04-16,9,1,0,0,0,0.0,451,Engaged,3,Retained,Product Viewed,Not Converted
+CUST0104,Aarti Gupta,Standard,35-44,East,Email,Summer Sale,2024-02-26,13,1,1,1,0,0.0,1237,Engaged,4,At Risk,Checkout Started,Not Converted
+CUST0105,Namrata Nair,Standard,18-24,East,Social Media,New User Offer,2024-04-07,18,1,1,1,0,0.0,1451,Engaged,5,Churned,Checkout Started,Not Converted
+CUST0106,Dinesh Verma,Standard,25-34,North,Paid Ads,Brand Awareness,2024-05-26,13,1,0,0,0,0.0,1463,Engaged,3,Churned,Product Viewed,Not Converted
+CUST0107,Archana Sharma,Budget,25-34,Central,Social Media,Flash Sale,2024-01-23,14,1,1,1,0,0.0,1739,Engaged,4,Retained,Checkout Started,Not Converted
+CUST0108,Sheetal Mehta,Budget,25-34,West,Organic Search,Winter Fest,2024-05-15,17,1,0,0,0,0.0,407,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0109,Lavanya Singh,Premium,18-24,North,Email,Winter Fest,2024-02-15,25,1,1,1,0,0.0,1296,Engaged,3,Churned,Checkout Started,Not Converted
+CUST0110,Sahil Thakur,Standard,55+,South,Direct,Flash Sale,2024-02-08,15,1,1,1,0,0.0,149,Engaged,2,Churned,Checkout Started,Not Converted
+CUST0111,Jyoti Desai,Premium,25-34,North,Paid Ads,Holiday Special,2024-01-20,21,1,0,0,0,0.0,1779,Engaged,3,Retained,Product Viewed,Not Converted
+CUST0112,Chirag Desai,Standard,35-44,Central,Email,Summer Sale,2024-04-25,19,1,1,1,0,0.0,1344,Engaged,3,At Risk,Checkout Started,Not Converted
+CUST0113,Sunita Gupta,Budget,45-54,Central,Organic Search,New User Offer,2024-01-11,8,1,0,0,0,0.0,1459,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0114,Ashok Das,Premium,25-34,South,Paid Ads,Flash Sale,2024-06-22,20,1,0,0,0,0.0,117,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0115,Rahul Agarwal,Premium,35-44,South,Email,New User Offer,2024-03-26,3,1,1,0,0,0.0,1203,Engaged,4,Churned,Add to Cart,Not Converted
+CUST0116,Ayesha Kapoor,Premium,35-44,North,Social Media,Flash Sale,2024-02-02,22,1,0,0,0,0.0,1449,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0117,Simran Desai,Premium,35-44,East,Organic Search,Holiday Special,2024-02-16,7,1,0,0,0,0.0,709,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0118,Harsh Singh,Premium,25-34,West,Social Media,Summer Sale,2024-06-18,11,1,1,1,1,110.74,1579,Engaged,3,Retained,Purchase Completed,Converted
+CUST0119,Zara Kumar,Budget,18-24,South,Email,Retargeting,2024-06-05,10,1,0,0,0,0.0,1550,Engaged,5,Churned,Product Viewed,Not Converted
+CUST0120,Hemant Joshi,Standard,45-54,East,Referral,Flash Sale,2024-06-22,19,1,1,1,1,77.47,912,Engaged,4,At Risk,Purchase Completed,Converted

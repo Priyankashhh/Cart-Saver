@@ -1,0 +1,30 @@
+# Git ignore patterns for CartSaver project
+
+# Databases
+*.db
+cartsaver.db
+
+# Environment variables (Sensitive information)
+.env
+
+# Logs and outputs
+logs/
+*.log
+exports_output/
+
+# Dashboard cached data
+dashboard/data.json
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

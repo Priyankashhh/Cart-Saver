@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CartSaver -- Executive Customer Journey Intelligence</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- ApexCharts CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Re-evaluating Funnel & Consulting Llama 3.1 NIM...</div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="brand-section">
+        <div class="logo-icon">
+          <i data-lucide="shield-check" style="width: 24px; height: 24px;"></i>
+        </div>
+        <div class="brand-title">
+          <h1>CartSaver</h1>
+          <p>Customer Retention & AI Automation Platform</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="timestamp" id="last-updated">
+          <i data-lucide="clock" style="width: 14px; height: 14px;"></i>
+          Loading...
+        </span>
+        <button id="refresh-btn" class="btn" title="Queries Database & Generates New AI Briefing Insights">
+          <i data-lucide="refresh-cw" style="width: 16px; height: 16px;"></i>
+          Refresh Data
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Dashboard -->
+  <main class="container">
+
+    <!-- KPI Summary Section -->
+    <section class="kpi-grid">
+      <!-- Total Revenue -->
+      <div class="card kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Total Revenue</span>
+          <div class="kpi-icon-box success">
+            <i data-lucide="dollar-sign" style="width: 18px; height: 18px;"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="kpi-revenue">$0</div>
+        <div class="kpi-footer" id="revenue-achievement">
+          Loading...
+        </div>
+      </div>
+
+      <!-- Conversion Rate -->
+      <div class="card kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Conversion Rate</span>
+          <div class="kpi-icon-box primary">
+            <i data-lucide="target" style="width: 18px; height: 18px;"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="kpi-cvr">0%</div>
+        <div class="kpi-footer" id="cvr-details">
+          Loading...
+        </div>
+      </div>
+
+      <!-- Revenue At Risk -->
+      <div class="card kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Revenue At Risk</span>
+          <div class="kpi-icon-box danger">
+            <i data-lucide="alert-triangle" style="width: 18px; height: 18px;"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="kpi-at-risk">$0</div>
+        <div class="kpi-footer" id="risk-details">
+          Loading...
+        </div>
+      </div>
+
+      <!-- Recovery Opportunity -->
+      <div class="card kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-title">Recovery Potential</span>
+          <div class="kpi-icon-box warning">
+            <i data-lucide="sparkles" style="width: 18px; height: 18px;"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="kpi-recovery">$0</div>
+        <div class="kpi-footer" id="recovery-details">
+          Loading...
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Visuals Section (Funnel + Health Score) -->
+    <section class="main-grid">
+      <!-- Funnel Chart Card -->
+      <div class="card">
+        <div class="card-title">
+          <span>Checkout Funnel & Conversion Stages</span>
+          <i data-lucide="filter"></i>
+        </div>
+        <div id="funnel-chart" style="min-height: 280px;"></div>
+      </div>
+
+      <!-- Health Score & Segmentation Card -->
+      <div class="card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div class="card-title">
+          <span>Business Retention Health</span>
+          <i data-lucide="heart"></i>
+        </div>
+        <div style="display: grid; grid-template-columns: 2fr 3fr; gap: 1rem; align-items: center; flex-grow: 1;">
+          <div class="health-score-container">
+            <div id="health-gauge-chart"></div>
+            <div class="health-gauge-text" id="health-score-val">0</div>
+            <span class="health-status-badge good" id="health-badge">Good Health</span>
+          </div>
+          <!-- Customer Segments List -->
+          <div>
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase;">Customer Cohorts</span>
+            <div class="intent-cohorts" id="intent-cohorts">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secondary Visuals Section (Category Revenue + Abandoned Products) -->
+    <section class="secondary-grid">
+      <!-- Revenue By Category -->
+      <div class="card">
+        <div class="card-title">
+          <span>Sales Contribution by Category</span>
+          <i data-lucide="pie-chart"></i>
+        </div>
+        <div id="category-chart" style="min-height: 250px;"></div>
+      </div>
+
+      <!-- Top Abandoned Products -->
+      <div class="card">
+        <div class="card-title">
+          <span>Top Cart-Abandoned Products</span>
+          <i data-lucide="shopping-bag"></i>
+        </div>
+        <div class="product-list" id="abandoned-products">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Campaign Performance Section (Offers Conversion + Channel Stats) -->
+    <section class="secondary-grid">
+      <!-- Offer Tiers Conversion -->
+      <div class="card">
+        <div class="card-title">
+          <span>Discount Tier Performance</span>
+          <i data-lucide="percent"></i>
+        </div>
+        <div id="offer-chart" style="min-height: 250px;"></div>
+      </div>
+
+      <!-- Notification Channel Stats -->
+      <div class="card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div class="card-title">
+          <span>Campaign Channel Efficiencies & Cost</span>
+          <i data-lucide="message-square"></i>
+        </div>
+        <div style="flex-grow: 1;">
+          <table class="channel-table">
+            <thead>
+              <tr>
+                <th>Channel</th>
+                <th>Volume</th>
+                <th>Cost/Msg</th>
+                <th>Total Cost</th>
+              </tr>
+            </thead>
+            <tbody id="channel-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; text-align: center; background: rgba(0,0,0,0.15); padding: 0.75rem 0.5rem; border-radius: 8px; margin-top: 1rem; border: 1px solid var(--border-color);">
+          <div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase;">Total Sent</div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: #fff;" id="total-sent-label">0</div>
+          </div>
+          <div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase;">Total Cost</div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-danger);" id="total-cost-label">$0.00</div>
+          </div>
+          <div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase;">Conversions</div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--color-success);" id="total-conv-label">0</div>
+          </div>
+          <div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase;">Campaign ROAS</div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: #a78bfa;" id="roas-label">0x</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI-Powered Executive Briefing Section -->
+    <section class="briefing-section">
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.25rem;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700;">AI-Powered Executive Briefing</h2>
+        <span style="font-size: 0.7rem; background: var(--color-primary-glow); color: var(--color-primary); padding: 0.15rem 0.5rem; border-radius: 4px; font-weight: 700; border: 1px solid rgba(59, 130, 246, 0.2);">
+          LLAMA 3.1 NIM CONSULTANT
+        </span>
+      </div>
+      <div class="briefing-grid" id="briefing-container">
+        <!-- Dynamically populated AI cards -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>CartSaver Platform &copy; 2026. Built with Python, SQLite, and NVIDIA Llama-3.1 NIM.</p>
+    </div>
+  </footer>
+
+  <!-- Core Javascript File -->
+  <script src="app.js"></script>
+</body>
+</html>
